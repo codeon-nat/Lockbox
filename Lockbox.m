@@ -18,7 +18,7 @@
 #endif
 
 #define kDelimiter @"-|-"
-#define DEFAULT_ACCESSIBILITY kSecAttrAccessibleWhenUnlocked
+#define DEFAULT_ACCESSIBILITY kSecAttrAccessibleAfterFirstUnlock
 
 #if __has_feature(objc_arc)
 #define LOCKBOX_ID __bridge id
